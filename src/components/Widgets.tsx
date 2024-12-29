@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   Accordion,
   AccordionSummary,
@@ -23,15 +23,15 @@ const Widgets = () => {
   const [tabValue, setTabValue] = useState(0);
   const [anchorEl, setAnchorEl] = useState(null);
   const [selectedMenu, setSelectedMenu] = useState("");
-
+  //@ts-ignore
   const handleSliderChange = (event, newValue) => {
     setValue(newValue);
   };
-
+  //@ts-ignore
   const handleTabChange = (event, newValue) => {
     setTabValue(newValue);
   };
-
+  //@ts-ignore
   const handleMenuClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
@@ -40,6 +40,7 @@ const Widgets = () => {
     setAnchorEl(null);
   };
 
+  //@ts-ignore
   const handleSelectChange = (event) => {
     setSelectedMenu(event.target.value);
   };
