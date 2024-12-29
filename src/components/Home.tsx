@@ -11,12 +11,8 @@ const Home = () => {
       <br />
       <Link to="/web-elements">Web Elements</Link>
       <br />
-<<<<<<< HEAD
-      
-=======
       <Link to="/Widgets">Widgets</Link>
       <br />
->>>>>>> refs/remotes/origin/main
     </div>
   );
 };
