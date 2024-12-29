@@ -5,6 +5,7 @@ import Login from "./components/Login";
 import Forms from "./components/Forms";
 import WebElement from "./components/WebElement";
 import Register from "./components/Register";
+import Widgets from "./components/Widgets";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/formpage" element={<Forms />} />
         <Route path="/web-elements" element={<WebElement />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/Widgets" element={<Widgets />} />
       </Routes>
     </Router>
   );
