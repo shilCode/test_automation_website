@@ -1,13 +1,6 @@
-import { useNavigate } from "react-router-dom";
-
-const Login = () => {
-  const navigate = useNavigate();
-  const handlerNewUserClick = () => {
-    navigate("/register");
-  };
+const Register = () => {
   return (
     <div className="gap-5 pb-5 p-10 justify-between">
-      {" "}
       <form>
         <div>
           <label htmlFor="username">User Name</label>
@@ -17,13 +10,14 @@ const Login = () => {
           <label htmlFor="password">Password</label>
           <input type="password" id="password" name="password" />
         </div>
-        <button type="submit">Login</button>
-        <button type="button" onClick={handlerNewUserClick}>
-          New User
-        </button>
+        <div>
+          <label htmlFor="email">Email</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <button type="submit">Register</button>
       </form>
     </div>
   );
 };
 
-export default Login;
+export default Register;

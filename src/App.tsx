@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Login from "./components/Login";
 import Forms from "./components/Forms";
 import WebElement from "./components/WebElement";
+import Register from "./components/Register";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/formpage" element={<Forms />} />
         <Route path="/web-elements" element={<WebElement />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
     </Router>
   );
