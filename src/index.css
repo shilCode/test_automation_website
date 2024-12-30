@@ -24,34 +24,31 @@
   margin: 0 auto;
 }
 
-.test-header{
+.test-header {
   color: white;
   padding: 2rem;
-  border: 5px solid #f0f0f0 ;
+  border: 5px solid #f0f0f0;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   text-align: center;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 
-.home-links{
+.home-links {
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-between;
 }
 
-#login{
-  padding: .5rem;
-  border: 3px solid #f0f0f0 ;
+#login {
+  padding: 0.5rem;
+  border: 3px solid #f0f0f0;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: white;
-
-  
 }
-
 
 /* Home page design ends here  */
 a {
@@ -70,5 +67,3 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
-
-
