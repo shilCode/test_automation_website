@@ -17,44 +17,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Home page design -- */
-
-#root {
-  align-items: center;
-  margin: 0 auto;
-}
-
-.test-header{
-  color: white;
-  padding: 2rem;
-  border: 5px solid #f0f0f0 ;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  text-align: center;
-  justify-content: center;
-  align-items: center;  
-}
-
-.home-links{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#login{
-  padding: .5rem;
-  border: 3px solid #f0f0f0 ;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  color: white;
-
-  
-}
-
-
-/* Home page design ends here  */
-a {
+/* a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
@@ -67,8 +30,94 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+} */
+
+/* Home page design -- */
+
+#root {
+  align-items: center;
+  margin: 0 auto;
 }
 
+.test-header{
+  color: white;
+  padding: 1.5rem;
+  border: 5px solid #f0f0f0 ;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;  
+  margin-top: 13%;
+  place-items: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
 
+.home-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
+  
+}
+
+#login{
+  color: white;
+  text-decoration: underline;
+  padding: 15px 25px;
+}
+
+button{
+  padding: .5rem;
+  border: 2px solid #f0f0f0 ;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: hsla(240, 1%, 54%, 0.683);
+}
+
+/* Login page design starts here  */
+
+.login-container{
+  padding: 10rem;
+  border: 2px solid #f0f0f0 ;
+  border-radius: 10px;
+  color: white;
+  background-color: hsla(0, 1%, 30%, 0.768);
+  margin-top: 9%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.username-container{
+  padding: 10px;
+  font-size: large;
+  margin: 20px 0px;
+  display: flex;
+  
+}
+.password-container{
+  padding: 10px;
+  font-size: large;
+  margin-bottom: 20px;
+  
+  display: flex;
+}
+.input-container{
+  margin-left: 10px;
+
+}
+.input-container2{
+  margin-left: 20px;
+
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  
+}
