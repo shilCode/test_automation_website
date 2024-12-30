@@ -2,17 +2,19 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="w-screen">
-      <h1>Test Automation Demo Site</h1>
+    <div className="home-page">
+      <h1 className="test-header">Test Automation Demo Site</h1>
       <br />
-      <Link to="/login">Login Page</Link>
+      <div className="home-links"  >
+      <Link id="login" to="/login">Login Page</Link>
       <br />
-      <Link to="/formpage">Forms</Link>
+      <Link id="login" to="/formpage">Forms</Link>
       <br />
-      <Link to="/web-elements">Web Elements</Link>
+      <Link id="login" to="/web-elements">Web Elements</Link>
       <br />
-      <Link to="/Widgets">Widgets</Link>
+      <Link id="login" to="/Widgets">Widgets</Link>
       <br />
+      </div>
     </div>
   );
 };
