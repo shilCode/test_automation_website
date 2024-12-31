@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="">
-      <h1 className="test-header">Test Automation Demo Site</h1>
+      <h1 className="test-header">Test Automation Playground</h1>
       <br />
       <div className="home-links justify-between">
         <Link id="login" to="/login">
