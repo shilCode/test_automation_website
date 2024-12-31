@@ -42,16 +42,21 @@
   justify-content: space-between;
 }
 
-#login {
-  padding: 0.5rem;
+#home {
+  padding: 0.9rem;
   border: 3px solid #f0f0f0;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: white;
 }
-#login:hover {
-  background-color:blue;
-  }
+#home:hover {
+  background-color: #026ec1;
+  text-decoration: underline;
+}
+
+#ta-guide:hover{
+  text-decoration: underline;
+}
 
 /* Home page design ends here  */
 a {
