@@ -49,6 +49,9 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: white;
 }
+#login:hover {
+  background-color:blue;
+  }
 
 /* Home page design ends here  */
 a {
