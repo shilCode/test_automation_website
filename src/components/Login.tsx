@@ -10,7 +10,9 @@ const Login = () => {
       {" "}
       <form>
         <div>
-          <label htmlFor="username">User Name</label>
+          <label htmlFor="username" className=" text-lg">
+            User Name
+          </label>
           <input type="text" id="username" name="username" />
         </div>
         <div>
@@ -19,7 +21,7 @@ const Login = () => {
         </div>
         <button type="submit">Login</button>
         <button type="button" onClick={handlerNewUserClick}>
-          New User
+          Sign up
         </button>
       </form>
     </div>
