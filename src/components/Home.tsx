@@ -5,30 +5,38 @@ const Home = () => {
     <div className="">
       <h1 className="test-header">Test Automation Playground</h1>
       <br />
-      <div className="home-links justify-between">
-        <Link id="home" to="/login">
+      <div className="home-links">
+        <button className="button-container">
+        <Link id="login" to="/login">
           Login Page
         </Link>
+        </button>
         <br />
-        <Link id="home" to="/formpage">
+        <button className="button-container">  
+        <Link id="login" to="/formpage">
           Forms
         </Link>
+        </button>
         <br />
-        <Link id="home" to="/web-elements">
+        <button className="button-container">
+        <Link id="login" to="/web-elements">
           Web Elements
         </Link>
+        </button>
         <br />
-        <Link id="home" to="/Widgets">
-          Widgets
+        <button className="button-container">
+        <Link id="login" to="/web-elements">
+          Web Elements
         </Link>
+        </button>
         <br />
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <div>
-        <Link id="ta-guide" to="/taguides">Test Automation Resources</Link>
+      <div className="home-links">
+        <button className="button-container">
+        <Link id="login" to="/taguides">
+        Test Automation Resources
+        </Link>
+        </button>
       </div>
     </div>
   );

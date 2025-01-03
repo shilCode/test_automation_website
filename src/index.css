@@ -17,49 +17,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Home page design -- */
-
-#root {
-  align-items: center;
-  margin: 0 auto;
-}
-
-.test-header {
-  color: white;
-  padding: 2rem;
-  border: 5px solid #f0f0f0;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-
-.home-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#home {
-  padding: 0.9rem;
-  border: 3px solid #f0f0f0;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  color: white;
-}
-#home:hover {
-  background-color: #026ec1;
-  text-decoration: underline;
-}
-
-#ta-guide:hover {
-  text-decoration: underline;
-}
-
-/* Home page design ends here  */
-a {
+/* a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
@@ -72,6 +30,191 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+} */
+
+/* --------------------------- Home page design ---------------------------  */
+
+#root {
+  align-items: center;
+  margin: 0 auto;
 }
+
+.test-header{
+  color: white;
+  padding: 1.5rem;
+  border: 5px solid #f0f0f0 ;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;  
+  margin-top: 13%;
+  place-items: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: indianred;
+}
+
+.home-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
+  
+}
+
+#login{
+  color: white;
+  padding: 15px 25px;
+  font-weight: 800;
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+
+.button-container{
+  padding: .1rem;
+  border-radius: 10px;
+  border: solid 2px #f0f0f0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: hsla(240, 1%, 54%, 0.683);
+ 
+}
+
+/* ---------------------------  Login page design starts here  ---------------------------  */
+
+
+.login-container {
+  background-color: rgb(90, 90, 90);
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 2.5px solid #f0f0f0;
+  margin: 13% auto;
+}
+
+.username-container,
+.password-container {
+  margin-bottom: 20px;
+}
+.username-container label,
+.password-container label {
+  display: block;
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: 800;
+}
+
+.input-container,
+.input-container2 {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.input-container:focus,
+.input-container2:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 25px;
+  margin-left: 12px;
+}
+
+
+button {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: 600;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+  
+}
+
+button[type="button"] {
+  background-color: #007bff;
+  font-weight: 600;
+  color: white;
+}
+
+button[type="button"]:hover {
+  background-color: #0056b3;
+  
+}
+
+/* ---------------------------  Register page design starts here  ---------------------------  */
+
+/* .login-container {
+  background-color: rgb(90, 90, 90);
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 2.5px solid #f0f0f0;
+  margin: 13% auto;
+} */
+
+.username-container,
+.password-container,
+.email-container {
+  margin-bottom: 10px;
+}
+.username-container label,
+.password-container label,
+.email-container label {
+  display: block;
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: 800;
+}
+
+
+.input-container,
+.input-container2 {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.input-container:focus,
+.input-container2:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+
+/* ---------------------------  Register page design starts here  ---------------------------  */

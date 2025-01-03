@@ -6,26 +6,28 @@ const Login = () => {
     navigate("/register");
   };
   return (
-    <div className="gap-5 pb-5 p-10 justify-between">
-      {" "}
-      <form>
-        <div>
-          <label htmlFor="username" className=" text-lg">
-            User Name
-          </label>
-          <input type="text" id="username" name="username" />
+      <div className="login-container">
+        <form>
+        <div className="username-container">
+          <label htmlFor="username">User Name:</label>
+          <input className="input-container" type="text" id="username" name="username" />
         </div>
-        <div>
-          <label htmlFor="password">Password</label>
-          <input type="password" id="password" name="password" />
+        <div className="password-container">
+          <label htmlFor="password">Password:</label>
+          <input className="input-container2" type="password" id="password" name="password" />
         </div>
+        <div className="button-container">
         <button type="submit">Login</button>
         <button type="button" onClick={handlerNewUserClick}>
-          Sign up
+          New User
         </button>
+        </div>
       </form>
-    </div>
+      </div>
+    
   );
 };
+
+export default Login;
 
 export default Login;
