@@ -73,13 +73,14 @@ body {
   color: rgb(255, 255, 255);
 }
 
-button{
-  padding: .5rem;
-  border: 2px solid #f0f0f0 ;
+.button-container{
+  padding: .1rem;
   border-radius: 10px;
+  border: solid 2px #f0f0f0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: white;
   background-color: hsla(240, 1%, 54%, 0.683);
+ 
 }
 
 /* ---------------------------  Login page design starts here  ---------------------------  */
