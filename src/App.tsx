@@ -6,6 +6,7 @@ import WebElement from "./components/WebElement";
 import Register from "./components/Register";
 import Widgets from "./components/Widgets";
 import TAGuides from "./components/TAGuides";
+import "./index.css";
 
 function App() {
   return (
