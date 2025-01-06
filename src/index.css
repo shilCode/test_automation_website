@@ -47,7 +47,7 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;  
-  margin-top: 13%;
+  margin-top: 1%;
   place-items: center;
   margin-left: 30%;
   margin-right: 30%;
@@ -65,13 +65,7 @@ body {
   
 }
 
-#login{
-  color: white;
-  padding: 15px 25px;
-  font-weight: 800;
-  text-decoration: underline;
-  color: rgb(255, 255, 255);
-}
+
 
 .button-container{
   padding: .1rem;
@@ -218,3 +212,10 @@ button[type="button"]:hover {
 
 
 /* ---------------------------  Register page design starts here  ---------------------------  */
+
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
