@@ -8,7 +8,7 @@ const Home = () => {
         <h1 className="test-header  ">Test Automation Playground</h1>
 
         <br />
-        <p className="lowercase text-center">
+        <p className="lowercase text-center justify-center items-center place-content-center  p-10 mr-60 ml-60">
           Welcome to Test Automation Playground! This platform is dedicated to
           providing comprehensive resources and tools for automating software
           testing processes. Whether you are a beginner looking to learn the
