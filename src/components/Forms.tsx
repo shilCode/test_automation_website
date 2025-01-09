@@ -1,28 +1,27 @@
 const Forms = () => {
   return (
-    <div className="flex items-center  justify-center p-10">
+    <div className="form-container ">
       <form className=" gap-5 pb-5 p-10 justify-center">
-        <h2 className="text-3xl  justify-center">Practice Form</h2>
+        <h2 className="form-header text-3xl  justify-center">Practice Form</h2>
         <br />
-        <h3>Student Registration Form</h3>
+        <h3 className=" form-h3 ">Student Registration Form</h3>
 
-        <div>
-          <label htmlFor="firstName">First Name</label>
+        <div className="name-container ">
+          <label htmlFor="firstName">First Name:</label>
           <input
             type="text"
             id="firstName"
-            className=""
             name="firstName"
           />
         </div>
 
-        <div>
-          <label htmlFor="lastName">Last Name</label>
+        <div className="name-container">
+          <label htmlFor="lastName">Last Name:</label>
           <input type="text" id="lastName" name="lastName" />
         </div>
 
-        <div>
-          <label htmlFor="email">Email</label>
+        <div className="name-container">
+          <label htmlFor="email">Email:</label>
           <input
             type="email"
             id="email"
@@ -31,17 +30,17 @@ const Forms = () => {
           />
         </div>
 
-        <div>
+        <div className="gender-container">
           <label>Gender</label>
-          <div>
+          <div className="radio-container">
             <input type="radio" id="male" name="gender" value="male" />
             <label htmlFor="male">Male</label>
           </div>
-          <div>
+          <div className="radio-container">
             <input type="radio" id="female" name="gender" value="female" />
             <label htmlFor="female">Female</label>
           </div>
-          <div>
+          <div  className="radio-container">
             <input type="radio" id="other" name="gender" value="other" />
             <label htmlFor="other">Other</label>
           </div>
@@ -62,13 +61,13 @@ const Forms = () => {
           <input type="text" id="subjects" name="subjects" />
         </div>
 
-        <div>
+        <div className="hobbies-container">
           <label>Hobbies</label>
-          <div>
+          <div className="radio-container">
             <input type="checkbox" id="sports" name="hobbies" value="sports" />
             <label htmlFor="sports">Sports</label>
           </div>
-          <div>
+          <div className="radio-container">
             <input
               type="checkbox"
               id="reading"
@@ -77,7 +76,7 @@ const Forms = () => {
             />
             <label htmlFor="reading">Reading</label>
           </div>
-          <div>
+          <div className="radio-container">
             <input type="checkbox" id="music" name="hobbies" value="music" />
             <label htmlFor="music">Music</label>
           </div>
@@ -105,7 +104,7 @@ const Forms = () => {
           </select>
         </div>
 
-        <button type="submit" className="items-center justify-center flex">
+        <button type="submit" className=" button-form items-center justify-center flex">
           Submit
         </button>
       </form>
