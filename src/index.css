@@ -437,3 +437,149 @@ div textarea + label {
     padding: 0.8rem;
   }
 }
+
+/* ---------------------------  Web Elements page design starts here  ---------------------------  */
+
+.web-container {
+  background-color: rgb(90, 90, 90);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 35%;
+  margin: 5% auto;
+  padding: 20px;
+  border: 2.5px solid #f0f0f0;
+}
+
+.web-header {
+  color: indianred;
+  font-weight: 600;
+  border: 3px solid #f0f0f0 ;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  place-items: center;
+  background-color: #3e3e3e;
+}
+
+/* Text box section */
+
+.text-box{
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.text-box-header{
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+
+/* Check box and radio section */
+
+.check-box{
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 20px;
+
+}
+
+.check-box-header{
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.check-box-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  margin: 0 20%;
+}
+
+/*  Web table section  */
+
+.table-container{
+  justify-items: center;
+  text-align: center;
+  background: #2e2e2e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly ;
+}
+
+tr, td , th {
+  border: 2px solid #f4f4f4;
+}
+
+/* Button Section  */
+
+.button-container-web{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 25%;
+  margin-right: 25%;
+  
+}
+
+/* link section  */
+
+.link-container-web{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 25%;
+  margin-right: 25%;
+  
+}
+
+/*  Broken section  */
+
+
+.broken-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 25%;
+  margin-right: 25%;
+  
+}
+
+/* upload section */
+
+.download-web{
+  align-items: center;
+  margin-left: 42%;
+  text-decoration: underline;
+  color: white;
+  
+}
+
+
+#dynamicButton-1{
+  margin-left: 25%;
+  background-color: #202020;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 50%;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}

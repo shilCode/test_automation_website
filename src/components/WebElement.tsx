@@ -3,41 +3,50 @@ import { Button } from "./ui/button";
 
 const WebElement = () => {
   return (
-    <div className="flex items-center  justify-center ">
-      <div className="p-10">
-        <h1 className=" text-xl">Web Elements Playground</h1>
+    <div className=" web-container ">
+      <div >
+        <h1 className="web-header p-1.5 text-xl">Web Elements Playground</h1>
         <br />
         {/* Text Box */}
-        <section>
-          <h2>Text Box</h2>
+        <section className="text-box">
+          <h2 className="text-box-header">Text Box</h2>
+          <hr /> <br />
           <input type="text" placeholder="Enter text here" />
         </section>
 
         {/* Check Box */}
-        <section>
-          <h2>Check Box</h2>
+        <section className="check-box">
+          <h2 className="check-box-header" >Check Box</h2>
+          <hr /> <br />
+          <div className="check-box-container ">   
           <label>
             <input type="checkbox" /> Option 1
           </label>
           <label>
             <input type="checkbox" /> Option 2
           </label>
+          </div>
         </section>
 
         {/* Radio Button */}
-        <section>
-          <h2>Radio Button</h2>
+        <section className="check-box">
+          <h2 className="check-box-header">Radio Button</h2>
+          <hr /> <br />
+          <div className="check-box-container">
           <label>
             <input type="radio" name="radioGroup" /> Option 1
           </label>
           <label>
             <input type="radio" name="radioGroup" /> Option 2
           </label>
+          </div>
         </section>
 
         {/* Web Tables */}
         <section>
-          <h2>Web Tables</h2>
+          <h2 className="check-box-header">Web Tables</h2>
+          <hr /> <br /> 
+          <div className="table-container">
           <table>
             <thead>
               <tr>
@@ -59,42 +68,54 @@ const WebElement = () => {
               </tr>
             </tbody>
           </table>
+          </div>
         </section>
 
         {/* Buttons */}
         <section>
-          <h2>Buttons</h2>
+          <h2 className="check-box-header">Buttons</h2>
+          <hr /> <br />
+          <div className="button-container-web">
           <Button>Click Me</Button>
           <Button disabled>Disabled Button</Button>
+          </div>
         </section>
 
         {/* Links */}
         <section>
-          <h2>Links</h2>
+          <h2 className="check-box-header">Links</h2>
+          <hr /> <br />
+          <div className="link-container-web">
           <a href="#link1">Link 1</a>
           <a href="#link2">Link 2</a>
+          </div>
         </section>
 
         {/* Broken Links and Images */}
         <section>
-          <h2>Broken Links and Images</h2>
+          <h2 className="check-box-header">Broken Links and Images</h2>
+          <hr /> <br />
+          <div className="broken-container">
           <a href="/broken-link">Broken Link</a>
           <img src="/broken-image.jpg" alt="Broken Image" />
+          </div>
         </section>
 
         {/* Upload and Download */}
         <section>
-          <h2>Upload and Download</h2>
+          <h2 className="check-box-header">Upload and Download</h2>
+          <hr /> <br />
           <input type="file" />
-          <a href="/path/to/download" download>
+          <a className="download-web hover:text-blue-700" href="/path/to/download" download>
             Download File
           </a>
         </section>
 
         {/* Dynamic Properties */}
         <section>
-          <h2>Dynamic Properties</h2>
-          <Button id="dynamicButton">Dynamic Button</Button>
+          <h2 className="check-box-header mt-6">Dynamic Properties</h2>
+          <hr /> <br />
+          <Button id="dynamicButton-1">Dynamic Button</Button>
         </section>
       </div>
     </div>
