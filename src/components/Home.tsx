@@ -48,31 +48,39 @@ const Home = () => {
           <div className="home-links">
             <br />
             <Button className="button-container-home ">
-              <Link className="p-10" to="/widgets">
+              <Link className="p-10" to="/add-remove-element">
                 Add/Remove Element
               </Link>
             </Button>
             <br />
             <Button className="button-container-home ">
-              <Link className="p-10" to="/widgets">
+              <Link className="p-10" to="/drag-and-drop">
                 Drag and Drop
               </Link>
             </Button>
             <br />
             <Button className="button-container-home ">
-              <Link className="p-10" to="/widgets">
+              <Link className="p-10" to="/floating-menu">
                 Floating Menu
               </Link>
             </Button>
             <br />
             <Button className="button-container-home ">
-              <Link className="p-10" to="/widgets">
+              <Link className="p-10" to="/redirection">
                 Redirection
               </Link>
             </Button>
+          </div>
+
+          <div className="home-links">
             <Button className="button-container-home ">
-              <Link className="p-10" to="/widgets">
+              <Link className="p-10" to="/typos">
                 Typos
+              </Link>
+            </Button>
+            <Button className="button-container-home ">
+              <Link className="p-10" to="/notification-message">
+                Notification Message
               </Link>
             </Button>
           </div>
