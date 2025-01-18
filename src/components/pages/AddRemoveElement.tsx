@@ -14,7 +14,7 @@ const AddRemoveElement = () => {
   return (
     <div>
       <button onClick={addButton}>Add a button</button>
-      {buttons.map((button, index) => (
+      {buttons.map((__, index) => (
         <div key={index}>
           <button onClick={() => removeButton(index)}>
             Delete Me {index + 1}
@@ -24,6 +24,5 @@ const AddRemoveElement = () => {
     </div>
   );
 };
-
 
 export default AddRemoveElement;
