@@ -55,7 +55,7 @@ const Widgets = ({ darkMode }: WidgetsProps) => {
 
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
-      <div className="min-h-screen flex items-center justify-center bg-background">
+      <div className="min-h-screen flex items-center justify-center bg-background dark:bg-zinc-900">
         <div className="w-full max-w-3xl bg-white dark:bg-zinc-900 rounded-2xl shadow-xl p-8 md:p-12 space-y-10">
           <h1 className="text-2xl md:text-3xl font-bold text-primary text-center mb-6">Widgets Playground</h1>
           {/* Accordion */}

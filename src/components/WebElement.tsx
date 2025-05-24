@@ -2,7 +2,7 @@ import { Button } from "./ui/button";
 
 const WebElement = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background dark:text-zinc-100">
+    <div className="min-h-screen flex items-center justify-center bg-background dark:bg-zinc-900 dark:text-zinc-100">
       <div className="w-full max-w-3xl bg-white dark:bg-zinc-900 rounded-2xl shadow-xl p-8 md:p-12 space-y-10 dark:text-zinc-100">
         <h1 className="text-2xl md:text-3xl font-bold text-primary dark:text-primary text-center mb-4">Web Elements Playground</h1>
         {/* Text Box */}
