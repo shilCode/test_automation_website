@@ -1,20 +1,22 @@
+import { Button } from "./ui/button";
+
 const Register = () => {
   return (
-    <div className="gap-5 pb-5 p-10 justify-between ">
-      <form className="login-container">
-        <div className="username-container">
-          <label htmlFor="username">User Name:</label>
-          <input className="input-container" type="text" id="username" name="username" />
+    <div className="min-h-screen flex items-center justify-center bg-background dark:text-zinc-100">
+      <form className="w-full max-w-sm bg-white dark:bg-zinc-900 rounded-xl shadow-lg p-8 space-y-6 dark:text-zinc-100">
+        <div>
+          <label htmlFor="username" className="block text-sm font-semibold text-zinc-700 dark:text-zinc-200 mb-1">User Name:</label>
+          <input className="w-full px-4 py-2 border border-zinc-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100" type="text" id="username" name="username" />
         </div>
-        <div  className="password-container">
-          <label htmlFor="password">Password:</label>
-          <input className="input-container" type="password" id="password" name="password" />
+        <div>
+          <label htmlFor="password" className="block text-sm font-semibold text-zinc-700 dark:text-zinc-200 mb-1">Password:</label>
+          <input className="w-full px-4 py-2 border border-zinc-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100" type="password" id="password" name="password" />
         </div>
-        <div  className="email-container">
-          <label htmlFor="email">Email:</label>
-          <input className="input-container" type="email" id="email" name="email" />
+        <div>
+          <label htmlFor="email" className="block text-sm font-semibold text-zinc-700 dark:text-zinc-200 mb-1">Email:</label>
+          <input className="w-full px-4 py-2 border border-zinc-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100" type="email" id="email" name="email" />
         </div>
-        <button type="submit">Register</button>
+        <Button type="submit" className="w-full">Register</Button>
       </form>
     </div>
   );
