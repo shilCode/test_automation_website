@@ -24,7 +24,7 @@ function App() {
   }, [darkMode]);
 
   return (
-    <div>
+    <div className="bg-background text-foreground">
       <Router>
         <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
      

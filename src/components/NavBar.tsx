@@ -8,15 +8,16 @@ interface NavBarProps {
 
 const NavBar = ({ darkMode, setDarkMode }: NavBarProps) => {
   return (
-    <nav className="bg-white dark:bg-zinc-800 shadow-md py-4 px-6 flex justify-between ">
-      <div className="flex items-center space-x-4">
-        <Link to="/" className="text-zinc-700 dark:text-zinc-300 hover:text-primary dark:hover:text-primary-dark transition-colors">Home</Link>
-        <Link to="/login" className="text-zinc-700 dark:text-zinc-300 hover:text-primary dark:hover:text-primary-dark transition-colors">Login</Link>
-        <Link to="/formpage" className="text-zinc-700 dark:text-zinc-300 hover:text-primary dark:hover:text-primary-dark transition-colors">Forms</Link>
-        <Link to="/web-elements" className="text-zinc-700 dark:text-zinc-300 hover:text-primary dark:hover:text-primary-dark transition-colors">Web Elements</Link>
-        <Link to="/widgets" className="text-zinc-700 dark:text-zinc-300 hover:text-primary dark:hover:text-primary-dark transition-colors">Widgets</Link>
-        <Link to="/taguides" className="text-zinc-700 dark:text-zinc-300 hover:text-primary dark:hover:text-primary-dark transition-colors">TA Guides</Link>
-
+    <nav className="bg-background text-foreground border-b border-border shadow-sm py-4 px-6 flex justify-between items-center">
+      <div className="flex items-center space-x-6">
+        <Link to="/" className="text-foreground hover:text-primary transition-colors text-lg font-semibold">Home</Link>
+        <Link to="/login" className="text-foreground hover:text-primary transition-colors text-lg font-semibold">Login</Link>
+        <Link to="/formpage" className="text-foreground hover:text-primary transition-colors text-lg font-semibold">Forms</Link>
+        <Link to="/web-elements" className="text-foreground hover:text-primary transition-colors text-lg font-semibold">Web Elements</Link>
+        <Link to="/widgets" className="text-foreground hover:text-primary transition-colors text-lg font-semibold">Widgets</Link>
+        <Link to="/taguides" className="text-foreground hover:text-primary transition-colors text-lg font-semibold">TA Guides</Link>
+      </div>
+      <div>
         <Button
           variant="outline"
           size="icon"
